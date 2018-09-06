@@ -47,7 +47,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="deleted  .gitlab-ci.yml file maven">
-      <change beforePath="$PROJECT_DIR$/src/test/java/interviewQuestions/NoSuchElementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interviewQuestions/NoSuchElementDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcase/Expedia/PageObjectModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/classes/searchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/classes/searchPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,13 +141,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="11723" />
+          <entry key="java" value="12754" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11723" />
+          <entry key="JAVA" value="12754" />
           <entry key="PLAIN_TEXT" value="30" />
           <entry key="XML" value="6" />
         </counts>
@@ -153,7 +155,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="63" />
+          <entry key="java" value="65" />
           <entry key="png" value="4" />
           <entry key="xml" value="2" />
         </counts>
@@ -162,7 +164,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="65" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -170,11 +172,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/interviewQuestions/NoSuchElementDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="392">
+              <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="50" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/classes/searchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testcase/Expedia/PageObjectModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,8 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/tests/ApiCheck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SmokeTest/BasciActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/NavigatingPages.java" />
         <option value="$PROJECT_DIR$/src/test/java/SmokeTest/NavigatingBetweenPages.java" />
         <option value="$PROJECT_DIR$/src/test/java/SmokeTest/MyClassTest.java" />
@@ -261,6 +287,8 @@
         <option value="$PROJECT_DIR$/src/test/java/keypress/keyPressDemo2.java" />
         <option value="$PROJECT_DIR$/src/test/java/keypress/keyPressDemo3.java" />
         <option value="$PROJECT_DIR$/src/test/java/interviewQuestions/NoSuchElementDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/Expedia/PageObjectModel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page/classes/searchPage.java" />
       </list>
     </option>
   </component>
@@ -394,6 +422,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -530,7 +574,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NoSuchElementDemo">
+  <component name="RunManager" selected="JUnit.PageObjectModel.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -569,24 +613,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration name="PageObjectModel.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.Expedia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase.Expedia" />
+      <option name="MAIN_CLASS_NAME" value="testcase.Expedia.PageObjectModel" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="keyPressDemo1.keyPressDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcode-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="keypress.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="keypress" />
-      <option name="MAIN_CLASS_NAME" value="keypress.keyPressDemo1" />
-      <option name="METHOD_NAME" value="keyPressDemoTest" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -684,19 +728,19 @@
     <list>
       <item itemvalue="Maven.Run Maven" />
       <item itemvalue="TestNG.LoginPresentTestNG" />
-      <item itemvalue="JUnit.keyPressDemo1.keyPressDemoTest" />
       <item itemvalue="JUnit.keyPressDemo2.keyPressDemoTest" />
       <item itemvalue="JUnit.keyPressDemo3" />
       <item itemvalue="JUnit.NoSuchElementDemo" />
       <item itemvalue="JUnit.NoSuchElementDemo.NoSuchElementDemoTest" />
+      <item itemvalue="JUnit.PageObjectModel.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PageObjectModel.test" />
         <item itemvalue="JUnit.NoSuchElementDemo" />
         <item itemvalue="JUnit.NoSuchElementDemo.NoSuchElementDemoTest" />
         <item itemvalue="JUnit.keyPressDemo3" />
         <item itemvalue="JUnit.keyPressDemo2.keyPressDemoTest" />
-        <item itemvalue="JUnit.keyPressDemo1.keyPressDemoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -762,7 +806,7 @@
       <workItem from="1535630869345" duration="5186000" />
       <workItem from="1535689185522" duration="299000" />
       <workItem from="1536053638679" duration="5424000" />
-      <workItem from="1536122385450" duration="16055000" />
+      <workItem from="1536122385450" duration="19633000" />
     </task>
     <task id="LOCAL-00001" summary="tags">
       <created>1525917814262</created>
@@ -1100,43 +1144,50 @@
       <option name="project" value="LOCAL" />
       <updated>1535093461873</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="deleted  .gitlab-ci.yml file maven">
+      <created>1536220333078</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1536220333078</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NoSuchElementDemo_NoSuchElementDemoTest - 2018.09.06 at 12h 38m 52s.xml">
-      <configuration name="NoSuchElementDemo.NoSuchElementDemoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo_NoSuchElementDemoTest - 2018.09.06 at 12h 41m 12s.xml">
-      <configuration name="NoSuchElementDemo.NoSuchElementDemoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 44m 39s.xml">
-      <configuration name="NoSuchElementDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 47m 43s.xml">
-      <configuration name="NoSuchElementDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 48m 18s.xml">
-      <configuration name="NoSuchElementDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 50m 10s.xml">
-      <configuration name="NoSuchElementDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 50m 56s.xml">
-      <configuration name="NoSuchElementDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 51m 56s.xml">
-      <configuration name="NoSuchElementDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 53m 18s.xml">
-      <configuration name="NoSuchElementDemo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NoSuchElementDemo - 2018.09.06 at 12h 57m 50s.xml">
       <configuration name="NoSuchElementDemo" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 12m 09s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 13m 00s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 14m 15s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 16m 30s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 19m 28s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 21m 14s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 32m 32s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 39m 38s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PageObjectModel_test - 2018.09.06 at 15h 43m 15s.xml">
+      <configuration name="PageObjectModel.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209641000" />
+    <option name="totallyTimeSpent" value="213219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1149,8 +1200,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="25" width="1261" height="723" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22313371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22313371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1159,7 +1211,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4930041" weight="0.32730263" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50699586" side_tool="true" visible="true" weight="0.37335527" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50699586" side_tool="true" visible="true" weight="0.37335527" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.32550335" weight="0.44941956" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1333,23 +1385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/NavigateBetweenPages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/WorkingWithElementList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/DropDownSelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1692,10 +1727,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/interviewQuestions/NoSuchElementDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="392">
+          <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="50" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/Expedia/PageObjectModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/classes/searchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
           </folding>
         </state>
       </provider>
