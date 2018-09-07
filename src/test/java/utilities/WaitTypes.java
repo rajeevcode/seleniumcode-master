@@ -13,7 +13,12 @@ public class WaitTypes {
     this.driver = driver;
   }
 
-public void clickWhenReady(By locator, int timeout) {
+  public static WebElement getWhenVisible(WebDriver driver) {
+return getWhenVisible ( driver );
+  }
+
+
+  public void clickWhenReady(By locator, int timeout) {
     try {
       WebElement element = null;
       System.out.println ( "Waiting for max:: " + timeout + " seconds for the element to be available" );

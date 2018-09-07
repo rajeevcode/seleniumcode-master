@@ -9,9 +9,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class DropBoxTestTask {
+public class StreamlineTest {
   private WebDriver driver;
-  String baseUrl = "https://www.dropbox.com/";
+  String baseUrl = "http://localhost:8081/#/";
 
   @Before
   public void setUp() throws Exception {
@@ -26,7 +26,7 @@ public class DropBoxTestTask {
   @After
   public void tearDown() throws Exception {
     Thread.sleep ( 1000 );
-//    driver.quit ( );
+    driver.quit ( );
   }
 
   @Test
@@ -34,11 +34,10 @@ public class DropBoxTestTask {
     Thread.sleep ( 2000 );
     driver.get ( baseUrl );
     System.out.println (driver.getCurrentUrl ());
-    driver.findElement ( By.id ( "sign-up-in" ) ).click ();
-    driver.findElement(By.xpath ("//input[@type='email']")).sendKeys("test_19@gmail.com");
-    driver.findElement(By.xpath ("//input[@type='password']")).sendKeys("test@123");
-    driver.findElement ( By.xpath ( "//button[@type='submit']" ) ).click ();
-
+    driver.findElement ( By.xpath ( "//*[@id=\"app\"]/div/div/div/div[2]/div[1]/input" ) ).sendKeys ("admin");
+    driver.findElement(By.xpath ("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/input")).sendKeys("password");
+    driver.findElement(By.xpath ("//*[@id=\"app\"]/div/div/input")).click ();
+    driver.findElement ( By.xpath ( "//*[@id=\"app\"]/div/div[1]/div/div[1]/a" ) ).click ();
   }
 }
 
