@@ -47,9 +47,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="testNg code">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_SoftAsserts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testNgTutorial/AddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/AddNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -148,14 +147,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="32" />
-          <entry key="java" value="15036" />
+          <entry key="java" value="15142" />
           <entry key="txt" value="12" />
           <entry key="xml" value="489" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15036" />
+          <entry key="JAVA" value="15142" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="XML" value="489" />
         </counts>
@@ -163,7 +162,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="91" />
+          <entry key="java" value="92" />
           <entry key="log" value="5" />
           <entry key="png" value="5" />
           <entry key="xml" value="7" />
@@ -173,7 +172,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="91" />
+          <entry key="JAVA" value="92" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="7" />
         </counts>
@@ -212,11 +211,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Asserts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="301">
+              <caret line="32" column="3" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="32" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_SoftAsserts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -252,7 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/waittypes/ImplicitWaitDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/waittypes/ExplicitWaitUtilityDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalendarTest/CalendarSelection.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalendarTest/AutoComplete1.java" />
@@ -303,6 +310,7 @@
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/AddNumbers.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Asserts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_SoftAsserts.java" />
       </list>
     </option>
   </component>
@@ -560,7 +568,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestNg_Asserts">
+  <component name="RunManager" selected="TestNG.TestNG_SoftAsserts">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -639,25 +647,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAnnotation.testMethod1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcode-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNgTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNgTutorial" />
-      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestAnnotation" />
-      <option name="METHOD_NAME" value="testMethod1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestAnnotation.testMethod2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
@@ -670,6 +659,23 @@
       <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestAnnotation" />
       <option name="METHOD_NAME" value="testMethod2" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG_SoftAsserts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgTutorial" />
+      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_SoftAsserts" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -729,19 +735,19 @@
     <list>
       <item itemvalue="Maven.Run Maven" />
       <item itemvalue="TestNG.LoginPresentTestNG" />
-      <item itemvalue="TestNG.TestAnnotation.testMethod1" />
       <item itemvalue="TestNG.TestAnnotation.testMethod2" />
       <item itemvalue="TestNG.TestAnnotation" />
       <item itemvalue="TestNG.TestNg_Asserts.testSum" />
       <item itemvalue="TestNG.TestNg_Asserts" />
+      <item itemvalue="TestNG.TestNG_SoftAsserts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNG_SoftAsserts" />
         <item itemvalue="TestNG.TestNg_Asserts" />
         <item itemvalue="TestNG.TestNg_Asserts.testSum" />
         <item itemvalue="TestNG.TestAnnotation" />
         <item itemvalue="TestNG.TestAnnotation.testMethod2" />
-        <item itemvalue="TestNG.TestAnnotation.testMethod1" />
       </list>
     </recent_temporary>
   </component>
@@ -815,21 +821,7 @@
       <workItem from="1536308510751" duration="560000" />
       <workItem from="1536309108573" duration="2753000" />
       <workItem from="1536324236449" duration="7015000" />
-      <workItem from="1536373216341" duration="3423000" />
-    </task>
-    <task id="LOCAL-00005" summary="added new codes">
-      <created>1526098736135</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1526098736135</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added new codes">
-      <created>1526098821583</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1526098821583</updated>
+      <workItem from="1536373216341" duration="5324000" />
     </task>
     <task id="LOCAL-00007" summary="added new codes">
       <created>1526098928588</created>
@@ -1160,43 +1152,57 @@
       <option name="project" value="LOCAL" />
       <updated>1536374740658</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="testNg code">
+      <created>1536377635060</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1536377635060</updated>
+    </task>
+    <task id="LOCAL-00055" summary="testNg code">
+      <created>1536378001192</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1536378001192</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAnnotation - 2018.09.08 at 09h 44m 35s.xml">
-      <configuration name="TestAnnotation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAnnotation - 2018.09.08 at 09h 44m 45s.xml">
-      <configuration name="TestAnnotation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNg_Asserts_testSum - 2018.09.08 at 10h 12m 29s.xml">
-      <configuration name="TestNg_Asserts.testSum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNg_Asserts_testSum - 2018.09.08 at 10h 25m 48s.xml">
-      <configuration name="TestNg_Asserts.testSum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNg_Asserts_testSum - 2018.09.08 at 10h 26m 24s.xml">
-      <configuration name="TestNg_Asserts.testSum" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 30m 59s.xml">
+    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 37m 46s.xml">
       <configuration name="TestNg_Asserts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 31m 15s.xml">
+    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 39m 13s.xml">
       <configuration name="TestNg_Asserts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 31m 33s.xml">
+    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 39m 26s.xml">
       <configuration name="TestNg_Asserts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 31m 58s.xml">
+    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 39m 51s.xml">
       <configuration name="TestNg_Asserts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNg_Asserts - 2018.09.08 at 10h 32m 04s.xml">
-      <configuration name="TestNg_Asserts" configurationId="TestNG" />
+    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 25m 41s.xml">
+      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 26m 06s.xml">
+      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 30m 20s.xml">
+      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 31m 00s.xml">
+      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 31m 20s.xml">
+      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 31m 38s.xml">
+      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238390000" />
+    <option name="totallyTimeSpent" value="240291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1395,13 +1401,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/ScrollingElementIntoView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" selection-start-line="18" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/Webdriver.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1755,8 +1754,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Asserts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="301">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_SoftAsserts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
