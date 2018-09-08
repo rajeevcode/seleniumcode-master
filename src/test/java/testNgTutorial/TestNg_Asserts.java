@@ -12,6 +12,7 @@ public class TestNg_Asserts {
     AddNumbers obj = new AddNumbers ( );
     int[] result = obj.getArray ( );
     Assert.assertEquals ( result, expectedArray );
+    System.out.println ( "\nRunning Test -> testArrays" );
   }
 
   @Test
