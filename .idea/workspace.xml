@@ -46,11 +46,15 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="logs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
+    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="testNg suite">
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/regression-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -148,80 +152,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="32" />
-          <entry key="java" value="15647" />
-          <entry key="txt" value="16" />
-          <entry key="xml" value="585" />
+          <entry key="dummy" value="40" />
+          <entry key="java" value="15690" />
+          <entry key="txt" value="28" />
+          <entry key="xml" value="606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15647" />
-          <entry key="PLAIN_TEXT" value="48" />
-          <entry key="XML" value="585" />
+          <entry key="JAVA" value="15690" />
+          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="XML" value="606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="96" />
+          <entry key="java" value="99" />
           <entry key="log" value="5" />
           <entry key="png" value="5" />
           <entry key="vmoptions" value="1" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="96" />
+          <entry key="JAVA" value="99" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_BeforeClassAnnotations.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="59" />
+            <state relative-caret-position="390">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#156#157#0" expanded="true" />
@@ -240,11 +213,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            <state relative-caret-position="91">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -262,11 +236,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/regression-test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -299,12 +301,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/CalendarTest/AutoComplete.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/JavaScriptExecution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/WindowSize.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/ScrollingElementIntoView.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/JavaScriptClick.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/Webdriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/JavaScriptExecutorTest/JavaScriptClickRetail.java" />
         <option value="$PROJECT_DIR$/src/test/java/switchTo/SwitchWindow.java" />
         <option value="$PROJECT_DIR$/src/test/java/switchTo/SwitchAlert.java" />
@@ -347,9 +343,15 @@
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Asserts.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_SoftAsserts.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_BeforeClassAnnotations.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java" />
         <option value="$PROJECT_DIR$/src/test/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_Class1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_Class2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java" />
+        <option value="$PROJECT_DIR$/src/test/regression-test.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass2.java" />
       </list>
     </option>
   </component>
@@ -392,10 +394,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
     <option name="y" value="23" />
-    <option name="width" value="1254" />
+    <option name="width" value="1245" />
     <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -490,7 +492,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testNgTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="regressionsuite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -584,15 +601,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="SmokeTest" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dropBox.test" />
+      <recent name="JavaScriptExecutorTest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/testNgTutorial" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="dropBox.test" />
-      <recent name="JavaScriptExecutorTest" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -607,7 +627,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng.xml">
+  <component name="RunManager" selected="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -673,7 +693,7 @@
       <module name="seleniumcode-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNgTutorial.*" />
+          <option name="PATTERN" value="regressionsuite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -686,16 +706,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Class1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG_TestClass1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNgTutorial.*" />
+          <option name="PATTERN" value="regressionsuite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testNgTutorial" />
-      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_Class1" />
+      <option name="MAIN_CLASS_NAME" value="regressionsuite.TestNG_TestClass1" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -703,16 +723,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Class2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG_TestClass2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNgTutorial.*" />
+          <option name="PATTERN" value="regressionsuite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testNgTutorial" />
-      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_Class2" />
+      <option name="MAIN_CLASS_NAME" value="regressionsuite.TestNG_TestClass2" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -720,18 +740,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_SoftAsserts.testStrings" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNgTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNgTutorial" />
-      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_SoftAsserts" />
-      <option name="METHOD_NAME" value="testStrings" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/regression-test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -766,19 +778,19 @@
     <list>
       <item itemvalue="Maven.Run Maven" />
       <item itemvalue="TestNG.LoginPresentTestNG" />
-      <item itemvalue="TestNG.TestNG_SoftAsserts.testStrings" />
       <item itemvalue="TestNG.TestNG_BeforeClassAnnotations" />
-      <item itemvalue="TestNG.TestNG_Class1" />
-      <item itemvalue="TestNG.TestNG_Class2" />
+      <item itemvalue="TestNG.TestNG_TestClass1" />
+      <item itemvalue="TestNG.TestNG_TestClass2" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng.xml" />
+      <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng.xml" />
-        <item itemvalue="TestNG.TestNG_Class2" />
-        <item itemvalue="TestNG.TestNG_Class1" />
+        <item itemvalue="TestNG.TestNG_TestClass2" />
+        <item itemvalue="TestNG.TestNG_TestClass1" />
         <item itemvalue="TestNG.TestNG_BeforeClassAnnotations" />
-        <item itemvalue="TestNG.TestNG_SoftAsserts.testStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -855,14 +867,7 @@
       <workItem from="1536373216341" duration="6017000" />
       <workItem from="1536479272338" duration="340000" />
       <workItem from="1536479876353" duration="105000" />
-      <workItem from="1536480029861" duration="2334000" />
-    </task>
-    <task id="LOCAL-00010" summary="added new codes">
-      <created>1526099265341</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1526099265341</updated>
+      <workItem from="1536480029861" duration="4226000" />
     </task>
     <task id="LOCAL-00011" summary="added new codes">
       <created>1526099344189</created>
@@ -1200,31 +1205,17 @@
       <option name="project" value="LOCAL" />
       <updated>1536481015925</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="testNg suite">
+      <created>1536482753676</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1536482753676</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 31m 00s.xml">
-      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 31m 20s.xml">
-      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 31m 38s.xml">
-      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_SoftAsserts - 2018.09.09 at 00h 32m 40s.xml">
-      <configuration name="TestNG_SoftAsserts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_SoftAsserts_testStrings - 2018.09.09 at 15h 03m 59s.xml">
-      <configuration name="TestNG_SoftAsserts.testStrings" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_BeforeClassAnnotations - 2018.09.09 at 15h 11m 28s.xml">
-      <configuration name="TestNG_BeforeClassAnnotations" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_BeforeClassAnnotations - 2018.09.09 at 15h 12m 37s.xml">
-      <configuration name="TestNG_BeforeClassAnnotations" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestNG_BeforeClassAnnotations - 2018.09.09 at 15h 15m 02s.xml">
       <configuration name="TestNG_BeforeClassAnnotations" configurationId="TestNG" />
     </history-entry>
@@ -1234,9 +1225,30 @@
     <history-entry file="TestNG_Class2 - 2018.09.09 at 15h 40m 08s.xml">
       <configuration name="TestNG_Class2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng_xml - 2018.09.09 at 15h 45m 05s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng_xml - 2018.09.09 at 15h 45m 39s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 31m 41s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 32m 31s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 35m 33s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 37m 58s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 38m 58s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243763000" />
+    <option name="totallyTimeSpent" value="245655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1248,10 +1260,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1276" height="725" extended-state="6" />
+    <frame x="33" y="23" width="1245" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22042139" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22610141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1259,8 +1271,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49251246" visible="true" weight="0.3262295" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5024958" side_tool="true" visible="true" weight="0.2967213" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4910859" weight="0.3262295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5089141" side_tool="true" visible="true" weight="0.3262295" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.32485643" weight="0.44918033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1282,7 +1294,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Nativer Admin" order="7" weight="0.3283582" />
       <window_info anchor="right" id="UML design tool window" order="8" weight="0.3297785" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.33634126" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3363047" />
       <window_info anchor="right" id="Code Iris" order="10" />
       <window_info anchor="right" id="Database" order="11" weight="0.32895815" />
       <window_info anchor="right" id="Palette&#9;" order="12" />
@@ -1290,7 +1302,7 @@
       <window_info anchor="right" id="Coverage" order="14" side_tool="true" weight="0.32913518" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.044927537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22042139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1298,31 +1310,35 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49791145" weight="0.3293718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7869674" side_tool="true" weight="0.3289256" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.320802" weight="0.4499151" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49251246" weight="0.3262295" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5024958" side_tool="true" visible="true" weight="0.48688525" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.32485643" weight="0.44918033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51543736" weight="0.328125" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51469356" weight="0.49177632" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6135182" side_tool="true" weight="0.3263889" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.21303259" weight="0.3289256" />
+      <window_info anchor="bottom" auto_hide="true" id="Messages" internal_type="SLIDING" order="9" sideWeight="0.30898404" type="SLIDING" weight="0.33717105" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49880287" weight="0.38539898" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49750414" weight="0.39836067" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="13" weight="0.3163752" />
+      <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Nativer Admin" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.33751044" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32912534" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Jenkins" order="10" weight="0.32999164" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32935026" />
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Nativer Admin" order="7" weight="0.3283582" />
+      <window_info anchor="right" id="UML design tool window" order="8" weight="0.3297785" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3363047" />
+      <window_info anchor="right" id="Code Iris" order="10" />
+      <window_info anchor="right" id="Database" order="11" weight="0.32895815" />
+      <window_info anchor="right" id="Palette&#9;" order="12" />
+      <window_info anchor="right" id="Jenkins" order="13" weight="0.32999164" />
+      <window_info anchor="right" id="Coverage" order="14" side_tool="true" weight="0.32913518" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1374,7 +1390,8 @@
     <MESSAGE value="deleted  .gitlab-ci.yml file maven" />
     <MESSAGE value="testNg code" />
     <MESSAGE value="logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="logs" />
+    <MESSAGE value="testNg suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="testNg suite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1436,44 +1453,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ClientPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/switchTo/SwitchWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/switchTo/SwitchFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" selection-start-line="14" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/switchTo/SwitchAlert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ActionClass/MouseHoverActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ActionClass/DragAndDropActions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91">
@@ -1641,6 +1620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,6 +1630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1672,6 +1657,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1679,6 +1667,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1693,6 +1684,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1766,35 +1760,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state>
+          <caret column="22" selection-start-column="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/regression-suite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/regression-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testng.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        <state relative-caret-position="91">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
@@ -1811,17 +1832,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="390">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

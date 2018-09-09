@@ -1,9 +1,9 @@
-package testNgTutorial;
+package regressionsuite;
 
 import base.BaseTestSuite;
 import org.testng.annotations.*;
 
-public class TestNG_Class1 extends BaseTestSuite {
+public class TestNG_TestClass1 extends BaseTestSuite {
 
   @BeforeMethod
   public void afterMethod() {
@@ -16,21 +16,13 @@ public class TestNG_Class1 extends BaseTestSuite {
   }
 
   @BeforeClass
-  public void beforeClass() {
+  public void setUp() {
     System.out.println ( "\nTestNG_TestClass1 -> before class" );
   }
 
   @AfterClass
-  public void afterClass() {
+  public void tearDown() {
     System.out.println ( "\nTestNG_TestClass1 -> after class" );
-  }
-
-
-  public void cleanUp() {
-  }
-
-  public void setUp() {
-
   }
 
   @Test
