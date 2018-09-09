@@ -9,7 +9,7 @@ public class TestNG_SoftAsserts {
   @Test
   public void testArrays() {
     System.out.println ( "\nRunning Test -> testArrays" );
-    int[] expectedArray = {1, 2, 3};
+    int[] expectedArray = {1, 2, 3,4};
     AddNumbers obj = new AddNumbers ( );
     int[] result = obj.getArray ( );
     Assert.assertEquals ( result, expectedArray );
@@ -18,7 +18,7 @@ public class TestNG_SoftAsserts {
 
   @Test
   public void testStrings() {
-    System.out.println ( "\nRunning Test -> testStrings" );
+    System.out.println ( "\nRunning Test -> testString" );
     String expectedString = "Hello World!";
     AddNumbers obj = new AddNumbers ( );
     String result = obj.addStrings ( "Hello", "World!" );
