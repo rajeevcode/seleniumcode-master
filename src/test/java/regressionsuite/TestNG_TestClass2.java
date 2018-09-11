@@ -5,33 +5,33 @@ import org.testng.annotations.*;
 
 public class TestNG_TestClass2 extends BaseTestSuite {
 
-  @BeforeMethod
-  public void afterMethod() {
-    System.out.println ( "\nTestNG_TestClass1 -> before method" );
-  }
+    @BeforeClass
+    public void setUp() {
+      System.out.println("TestNG_TestClass2 -> before class");
+    }
 
-  @AfterMethod
-  public void beforeMethod() {
-    System.out.println ( "\nTestNG_TestClass2 -> after method" );
-  }
+    @AfterClass
+    public void cleanUp() {
+      System.out.println("TestNG_TestClass2 -> after class");
+    }
 
-  @BeforeClass
-  public void setUp() {
-    System.out.println ( "\nTestNG_TestClass2 -> before class" );
-  }
+    @BeforeMethod
+    public void beforeMethod() {
+      System.out.println("TestNG_TestClass2 -> before method");
+    }
 
-  @AfterClass
-  public void tearDown() {
-    System.out.println ( "\nTestNG_TestClass2 -> after class" );
-  }
+    @AfterMethod
+    public void afterMethod() {
+      System.out.println("TestNG_TestClass2 -> after method");
+    }
 
-  @Test
-  public void testMethod1() {
-    System.out.println ( "\nTestNG_TestClass2 -> This runs once testMethod1" );
-  }
+    @Test
+    public void testMethod1() {
+      System.out.println("TestNG_TestClass2 -> testMethod1");
+    }
 
-  @Test
-  public void testMethod2() {
-    System.out.println ( "\nTestNG_TestClass2 -> This runs once testMethod2" );
+    @Test
+    public void testMethod2() {
+      System.out.println("\nTestNG_TestClass2 -> testMethod2");
+    }
   }
-}
