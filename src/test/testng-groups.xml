@@ -3,8 +3,19 @@
 <suite name ="Regression TestSuite">
   <test name="Group Demo">
     <groups>
-      <run>
+      <define name="all">
         <include name="bikes"></include>
+        <include name="suv"></include>
+        <include name="sedan"></include>
+      </define>
+      <define name="nobikes">
+        <include name="suv"></include>
+        <include name="sedan"></include>
+      </define>
+
+      <run>
+        <!--<include name="nobikes"></include>-->
+        <include name="all"></include>
       </run>
     </groups>
     <classes>

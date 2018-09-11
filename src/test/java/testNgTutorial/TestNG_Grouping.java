@@ -4,12 +4,12 @@ import org.testng.annotations.*;
 
 public class TestNG_Grouping {
 
-  @BeforeClass
+  @BeforeClass(alwaysRun = true)
   public void beforeClass() {
     System.out.println ( "Before class" );
   }
 
-  @AfterClass
+  @AfterClass(alwaysRun = true)
   public void afterClass() {
     System.out.println ( "After method" );
   }

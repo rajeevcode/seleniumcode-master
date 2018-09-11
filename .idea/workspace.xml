@@ -46,15 +46,13 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="testNg suite">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Grouping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testng-groups.xml" afterDir="false" />
+    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="testNG groups">
+      <change afterPath="$PROJECT_DIR$/src/test/java/appCode/SomeClassToTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_DependentTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/regression-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/regression-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Grouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Grouping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testng-groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng-groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNgTutorial/TestNG_Grouping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNgTutorial/TestNG_Grouping.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,22 +151,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="java" value="15927" />
-          <entry key="txt" value="28" />
-          <entry key="xml" value="648" />
+          <entry key="java" value="16145" />
+          <entry key="txt" value="41" />
+          <entry key="xml" value="738" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15927" />
-          <entry key="PLAIN_TEXT" value="68" />
-          <entry key="XML" value="648" />
+          <entry key="JAVA" value="16145" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="XML" value="738" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="102" />
+          <entry key="java" value="105" />
           <entry key="log" value="5" />
           <entry key="png" value="5" />
           <entry key="vmoptions" value="1" />
@@ -179,7 +177,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="102" />
+          <entry key="JAVA" value="105" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="15" />
         </counts>
@@ -188,33 +186,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/testng-groups.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_DependentTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#TestNG_DependentTests#0" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Grouping.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appCode/SomeClassToTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -248,8 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/switchTo/SwitchFrame.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ActionClass/MouseHoverActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/ActionClass/DragAndDropActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/ActionClass/SliderActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/interviewQuestions/ElementNotClickableDemo.java" />
@@ -299,6 +308,8 @@
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Priority.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Grouping.java" />
         <option value="$PROJECT_DIR$/src/test/testng-groups.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_DependentTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appCode/SomeClassToTest.java" />
       </list>
     </option>
   </component>
@@ -379,6 +390,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="appCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
@@ -566,7 +585,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml">
+  <component name="RunManager" selected="TestNG.TestNG_DependentTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -628,6 +647,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNG_DependentTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgTutorial" />
+      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_DependentTests" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNG_Grouping" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
@@ -655,23 +691,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="testNgTutorial" />
       <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_Priority" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNG_TestClass1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcode-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="regressionsuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNgTutorial" />
-      <option name="MAIN_CLASS_NAME" value="regressionsuite.TestNG_TestClass1" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -717,19 +736,19 @@
     <list>
       <item itemvalue="Maven.Run Maven" />
       <item itemvalue="TestNG.LoginPresentTestNG" />
-      <item itemvalue="TestNG.TestNG_TestClass1" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" />
       <item itemvalue="TestNG.TestNG_Priority" />
       <item itemvalue="TestNG.TestNG_Grouping" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" />
+      <item itemvalue="TestNG.TestNG_DependentTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNG_DependentTests" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" />
         <item itemvalue="TestNG.TestNG_Grouping" />
         <item itemvalue="TestNG.TestNG_Priority" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" />
-        <item itemvalue="TestNG.TestNG_TestClass1" />
       </list>
     </recent_temporary>
   </component>
@@ -809,14 +828,7 @@
       <workItem from="1536480029861" duration="6413000" />
       <workItem from="1536556208210" duration="3000" />
       <workItem from="1536556296311" duration="872000" />
-      <workItem from="1536664123341" duration="2792000" />
-    </task>
-    <task id="LOCAL-00012" summary="added new codes">
-      <created>1526099401612</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1526099401612</updated>
+      <workItem from="1536664123341" duration="5847000" />
     </task>
     <task id="LOCAL-00013" summary="added new codes">
       <created>1526099456652</created>
@@ -1154,43 +1166,50 @@
       <option name="project" value="LOCAL" />
       <updated>1536493429678</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="testNG groups">
+      <created>1536682654508</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1536682654510</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 38m 58s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 21m 47s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 41m 00s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 22m 17s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 49m 59s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 24m 46s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG_TestClass1 - 2018.09.09 at 18h 52m 58s.xml">
-      <configuration name="TestNG_TestClass1" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 25m 08s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_regression-test_xml - 2018.09.09 at 18h 55m 48s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/regression-test.xml" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 27m 50s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG_Priority - 2018.09.09 at 22h 00m 29s.xml">
-      <configuration name="TestNG_Priority" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 28m 08s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG_Priority - 2018.09.09 at 22h 01m 42s.xml">
-      <configuration name="TestNG_Priority" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 28m 33s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG_Priority - 2018.09.10 at 12h 12m 26s.xml">
-      <configuration name="TestNG_Priority" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 29m 14s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG_Priority - 2018.09.10 at 12h 14m 49s.xml">
-      <configuration name="TestNG_Priority" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 30m 10s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestNG_Grouping - 2018.09.11 at 23h 12m 54s.xml">
-      <configuration name="TestNG_Grouping" configurationId="TestNG" />
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-groups_xml - 2018.09.11 at 23h 39m 56s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251509000" />
+    <option name="totallyTimeSpent" value="254564000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1214,12 +1233,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4910859" weight="0.3262295" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5089141" side_tool="true" weight="0.3885246" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4862843" side_tool="true" weight="0.35081968" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.32485643" weight="0.44918033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.51469356" weight="0.49177632" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5137157" weight="0.49016392" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6135182" side_tool="true" weight="0.3263889" />
       <window_info anchor="bottom" auto_hide="true" id="Messages" internal_type="SLIDING" order="9" sideWeight="0.30898404" type="SLIDING" weight="0.63442624" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -1333,7 +1352,8 @@
     <MESSAGE value="testNg code" />
     <MESSAGE value="logs" />
     <MESSAGE value="testNg suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="testNg suite" />
+    <MESSAGE value="testNG groups" />
+    <option name="LAST_COMMIT_MESSAGE" value="testNG groups" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1395,20 +1415,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/interviewQuestions/StaleElementDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="15" selection-start-line="15" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/keypress/keyPressDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="44" selection-start-line="12" selection-start-column="2" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/keypress/keyPressDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1610,13 +1616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/AddNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_SoftAsserts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1716,10 +1715,17 @@
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testng-groups.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Grouping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="316">
+          <caret line="35" selection-start-line="6" selection-start-column="2" selection-end-line="35" />
           <folding>
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
@@ -1737,10 +1743,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testng-groups.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/AddNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appCode/SomeClassToTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_DependentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#TestNG_DependentTests#0" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
