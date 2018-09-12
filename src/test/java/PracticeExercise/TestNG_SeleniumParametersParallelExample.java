@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestNG_SeleniumParametersParallelExample {
 
-  private String baseUrl ="https://letskodeit.teachable.com\"";
+  private String baseUrl ="https://letskodeit.teachable.com";
   private WebDriver driver;
 
   @BeforeClass

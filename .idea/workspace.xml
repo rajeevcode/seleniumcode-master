@@ -543,8 +543,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="SmokeTest" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dropBox.test" />
+      <recent name="JavaScriptExecutorTest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -553,9 +554,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="dropBox.test" />
-      <recent name="JavaScriptExecutorTest" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/" />
     </key>
   </component>
   <component name="RunDashboard">
