@@ -46,8 +46,10 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="Preserve Enable TestSuite">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_EnableTimeout.java" afterDir="false" />
+    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="TestNG_EnableTimeout">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testng-parameters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -146,35 +148,35 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="java" value="16296" />
+          <entry key="java" value="16604" />
           <entry key="txt" value="56" />
-          <entry key="xml" value="793" />
+          <entry key="xml" value="860" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16296" />
+          <entry key="JAVA" value="16604" />
           <entry key="PLAIN_TEXT" value="96" />
-          <entry key="XML" value="793" />
+          <entry key="XML" value="860" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="113" />
+          <entry key="java" value="114" />
           <entry key="log" value="5" />
           <entry key="png" value="5" />
           <entry key="vmoptions" value="1" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="113" />
+          <entry key="JAVA" value="114" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -182,10 +184,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_EnableTimeout.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Parameters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="244">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/testng-parameters.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -218,8 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/keypress/keyPressDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/keypress/keyPressDemo1.java" />
         <option value="$PROJECT_DIR$/src/test/java/keypress/keyPressDemo2.java" />
         <option value="$PROJECT_DIR$/src/test/java/keypress/keyPressDemo3.java" />
         <option value="$PROJECT_DIR$/src/test/java/interviewQuestions/NoSuchElementDemo.java" />
@@ -269,6 +281,8 @@
         <option value="$PROJECT_DIR$/src/testng-preserve-enable.xml" />
         <option value="$PROJECT_DIR$/src/test/testng-preserve-enable.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_EnableTimeout.java" />
+        <option value="$PROJECT_DIR$/src/test/testng-parameters.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Parameters.java" />
       </list>
     </option>
   </component>
@@ -537,7 +551,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestNG_EnableTimeout">
+  <component name="RunManager" selected="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-parameters.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -599,23 +613,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_DependentTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcode-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNgTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNgTutorial" />
-      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_DependentTests" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestNG_EnableTimeout" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
@@ -633,9 +630,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG_Parameters" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng-groups.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgTutorial" />
+      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_Parameters" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-parameters.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng-parameters.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -682,19 +696,19 @@
     <list>
       <item itemvalue="Maven.Run Maven" />
       <item itemvalue="TestNG.LoginPresentTestNG" />
-      <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" />
-      <item itemvalue="TestNG.TestNG_DependentTests" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-preserve-enable.xml" />
       <item itemvalue="TestNG.TestNG_EnableTimeout" />
+      <item itemvalue="TestNG.TestNG_Parameters" />
+      <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-parameters.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-parameters.xml" />
+        <item itemvalue="TestNG.TestNG_Parameters" />
         <item itemvalue="TestNG.TestNG_EnableTimeout" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-preserve-enable.xml" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" />
-        <item itemvalue="TestNG.TestNG_DependentTests" />
-        <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-groups.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -774,14 +788,7 @@
       <workItem from="1536480029861" duration="6413000" />
       <workItem from="1536556208210" duration="3000" />
       <workItem from="1536556296311" duration="872000" />
-      <workItem from="1536664123341" duration="7474000" />
-    </task>
-    <task id="LOCAL-00015" summary="added new codes">
-      <created>1526100047902</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1526100047902</updated>
+      <workItem from="1536664123341" duration="8738000" />
     </task>
     <task id="LOCAL-00016" summary="added new codes">
       <created>1526100181467</created>
@@ -1119,43 +1126,50 @@
       <option name="project" value="LOCAL" />
       <updated>1536688122089</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="TestNG_EnableTimeout">
+      <created>1536688624612</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1536688624612</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_testng-preserve-enable_xml - 2018.09.12 at 00h 39m 25s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_testng-preserve-enable_xml - 2018.09.12 at 00h 40m 16s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_testng-preserve-enable_xml - 2018.09.12 at 00h 41m 22s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_testng-preserve-enable_xml - 2018.09.12 at 00h 42m 32s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_testng-preserve-enable_xml - 2018.09.12 at 00h 47m 29s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_testng-preserve-enable_xml - 2018.09.12 at 00h 47m 40s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-preserve-enable_xml - 2018.09.12 at 00h 48m 16s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-preserve-enable_xml - 2018.09.12 at 00h 48m 25s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-preserve-enable.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 52m 55s.xml">
-      <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 53m 26s.xml">
       <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 53m 46s.xml">
+      <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 54m 15s.xml">
+      <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 54m 32s.xml">
+      <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 54m 59s.xml">
+      <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 55m 47s.xml">
+      <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_EnableTimeout - 2018.09.12 at 00h 56m 31s.xml">
+      <configuration name="TestNG_EnableTimeout" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_Parameters - 2018.09.12 at 08h 32m 23s.xml">
+      <configuration name="TestNG_Parameters" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-parameters_xml - 2018.09.12 at 08h 32m 46s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-parameters.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-parameters_xml - 2018.09.12 at 08h 35m 41s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-parameters.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256191000" />
+    <option name="totallyTimeSpent" value="257455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1179,7 +1193,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.50124687" weight="0.3262295" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48711553" side_tool="true" visible="true" weight="0.49016392" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48711553" side_tool="true" visible="true" weight="0.34590164" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.32485643" weight="0.44918033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1301,7 +1315,8 @@
     <MESSAGE value="testNG groups" />
     <MESSAGE value="testNG dependsOnMethod" />
     <MESSAGE value="Preserve Enable TestSuite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preserve Enable TestSuite" />
+    <MESSAGE value="TestNG_EnableTimeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG_EnableTimeout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1363,20 +1378,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/Expedia/PageObjectModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/classes/SearchPageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcase/Expedia/FrameworkTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1731,8 +1732,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_EnableTimeout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testng-parameters.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Parameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
