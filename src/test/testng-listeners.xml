@@ -2,7 +2,7 @@
 
 <suite name ="Listener TestSuite">
   <listeners>
-    <listener class-name="listernerPackage.CustomListener3"></listener>
+    <listener class-name="listernerPackage.CustomListeners"></listener>
   </listeners>
   <test name="Application Test 1">
     <classes>
