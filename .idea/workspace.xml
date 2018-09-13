@@ -47,14 +47,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="ignore type Parallel TestSuite">
-      <change afterPath="$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ITestResultDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testng-listeners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/CustomListenersDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testng-listeners.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng-listeners.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -154,22 +152,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="55" />
-          <entry key="java" value="18115" />
+          <entry key="java" value="18243" />
           <entry key="txt" value="84" />
-          <entry key="xml" value="1043" />
+          <entry key="xml" value="1056" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18115" />
+          <entry key="JAVA" value="18243" />
           <entry key="PLAIN_TEXT" value="139" />
-          <entry key="XML" value="1043" />
+          <entry key="XML" value="1056" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="129" />
+          <entry key="java" value="133" />
           <entry key="log" value="5" />
           <entry key="png" value="5" />
           <entry key="vmoptions" value="1" />
@@ -180,7 +178,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="129" />
+          <entry key="JAVA" value="133" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="25" />
         </counts>
@@ -199,33 +197,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/base/CustomListenersDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -240,10 +215,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener1.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="480">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,29 +258,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/testng-listeners.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestData.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestNG_ParallelExecution.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -324,7 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Log4jTutuorial/LoggingConsole.java" />
         <option value="$PROJECT_DIR$/src/test/java/Log4jTutuorial/LoggingDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/letskoeditLogs/LoggingFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/demo/LogDemo.java" />
@@ -370,11 +358,12 @@
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_DataProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ITestResultDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener3.java" />
         <option value="$PROJECT_DIR$/src/test/testng-listeners.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java" />
       </list>
     </option>
   </component>
@@ -455,6 +444,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
@@ -908,7 +905,7 @@
       <workItem from="1536664123341" duration="10911000" />
       <workItem from="1536730774379" duration="5055000" />
       <workItem from="1536744911388" duration="2000" />
-      <workItem from="1536767706911" duration="3195000" />
+      <workItem from="1536767706911" duration="3967000" />
     </task>
     <task id="LOCAL-00020" summary="added new codes">
       <created>1526100326808</created>
@@ -1257,15 +1254,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNG_ListenersTest1 - 2018.09.12 at 23h 09m 33s.xml">
-      <configuration name="TestNG_ListenersTest1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-listeners_xml - 2018.09.12 at 23h 11m 14s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-listeners_xml - 2018.09.12 at 23h 11m 35s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-listeners_xml - 2018.09.12 at 23h 12m 08s.xml">
       <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" configurationId="TestNG" />
     </history-entry>
@@ -1287,9 +1275,18 @@
     <history-entry file="TestNG_ListenersTest2 - 2018.09.13 at 08h 29m 44s.xml">
       <configuration name="TestNG_ListenersTest2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-listeners_xml - 2018.09.13 at 08h 52m 20s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-listeners_xml - 2018.09.13 at 08h 57m 16s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-listeners_xml - 2018.09.13 at 09h 03m 12s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267880000" />
+    <option name="totallyTimeSpent" value="268652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1304,7 +1301,7 @@
     <frame x="33" y="23" width="1245" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22610141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22610141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1502,20 +1499,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Log4jTutuorial/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demo/LogDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -1792,10 +1775,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/CustomListenersDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testng-listeners.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="150">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1809,38 +1816,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testng-listeners.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
