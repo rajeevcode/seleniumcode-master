@@ -1,1 +1,5 @@
-23:04:47.644 INFO  waittypes.ExplicitWaitDemo -This message is from test method
+18:09:25.848 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+18:09:25.858 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+18:09:25.861 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+18:09:25.863 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+18:09:25.864 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
