@@ -9,14 +9,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class SeleniumLoginTest {
-
+public class LoginTestWithScreenshot {
   private WebDriver driver;
   private String baseUrl;
   ExtentReports report;
@@ -27,12 +27,12 @@ public class SeleniumLoginTest {
     baseUrl = "http://www.letskodeit.com/";
     report = new ExtentReports("/Users/rajeev.kumar/Desktop/ExtentReports/logintest.html");
     test = report.startTest("Verify Welcome Text");
-    driver = new FirefoxDriver();
-    test.log(LogStatus.INFO, "Browser Started...");
+    driver = new FirefoxDriver ();
+    test.log( LogStatus.INFO, "Browser Started...");
 
     // Maximize the browser's window
     driver.manage().window().maximize();
-    test.log(LogStatus.INFO, "Browser Maximized");
+    test.log(LogStatus.INFO, "Browser Maximized...");
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     driver.get(baseUrl);
     test.log(LogStatus.INFO, "Web application opened");
@@ -40,7 +40,7 @@ public class SeleniumLoginTest {
 
   @Test
   public void test1_validLoginTest() throws Exception {
-    WebElement signupLink = driver.findElement(By.id("comp-iiqg1vggactionTitle"));
+    WebElement signupLink = driver.findElement( By.id("comp-iiqg1vggactionTitle"));
     signupLink.click();
     test.log(LogStatus.INFO, "Clicked on signup link");
 
@@ -49,7 +49,7 @@ public class SeleniumLoginTest {
     test.log(LogStatus.INFO, "Clicked on login link");
 
     WebElement emailField = driver.findElement(By.xpath("//div[@id='memberLoginDialogemail']//input"));
-    emailField.sendKeys("test@email.com");
+    emailField.sendKeys("test1@email.com");
     test.log(LogStatus.INFO, "Enter email");
 
     WebElement passwordField = driver.findElement(By.xpath("//div[@id='memberLoginDialogpassword']//input"));
@@ -74,10 +74,15 @@ public class SeleniumLoginTest {
     test.log(LogStatus.PASS, "Verified Welcome Text");
   }
 
-  @AfterClass
-  public void afterClass() {
-    driver.quit();
+  @AfterMethod
+  public void tearDown(ITestResult testResult) throws IOException {
+    if (testResult.getStatus() == ITestResult.FAILURE) {
+      String path = Screenshots.takeScreenshot(driver, testResult.getName());
+      String imagePath = test.addScreenCapture(path);
+      test.log(LogStatus.FAIL, "Verify Welcome Text Failed", imagePath);
+    }
     report.endTest(test);
     report.flush();
+    driver.quit();
   }
 }

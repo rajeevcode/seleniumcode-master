@@ -47,9 +47,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="ignore type Parallel TestSuite">
-      <change afterPath="$PROJECT_DIR$/src/test/java/reportingTest/SeleniumLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reportingTest/ExtentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reportingTest/LoginTestWithScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reportingTest/Screenshots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reportingTest/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reportingTest/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testng-extent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/reportingTest/SeleniumLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/reportingTest/SeleniumLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reportingTest/SeleniumLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reportingTest/SeleniumLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-reportingTest.SeleniumLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-reportingTest.SeleniumLoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -151,27 +170,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="55" />
-          <entry key="java" value="18744" />
+          <entry key="java" value="19582" />
           <entry key="txt" value="84" />
-          <entry key="xml" value="1180" />
+          <entry key="xml" value="1276" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18744" />
+          <entry key="JAVA" value="19582" />
           <entry key="PLAIN_TEXT" value="139" />
-          <entry key="XML" value="1180" />
+          <entry key="XML" value="1276" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="2" />
-          <entry key="java" value="147" />
+          <entry key="java" value="152" />
           <entry key="log" value="5" />
           <entry key="png" value="6" />
           <entry key="vmoptions" value="1" />
-          <entry key="xml" value="29" />
+          <entry key="xml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -179,9 +198,9 @@
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="147" />
+          <entry key="JAVA" value="152" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="29" />
+          <entry key="XML" value="30" />
         </counts>
       </usages-collector>
     </session>
@@ -189,22 +208,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/LoginTestWithScreenshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="410">
+              <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/SeleniumLoginTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/ExtentFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+            <state>
+              <caret column="21" selection-start-column="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/Test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/testng-extent.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -237,12 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/Log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/waittypes/ExplicitWaitDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Demo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/AddNumbers.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Asserts.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_SoftAsserts.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_BeforeClassAnnotations.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java" />
@@ -288,6 +334,12 @@
         <option value="$PROJECT_DIR$/src/test/testng-logs.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/reportingTest/SeleniumLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reportingTest/Screenshots.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reportingTest/LoginTestWithScreenshot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reportingTest/ExtentFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reportingTest/Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reportingTest/Test2.java" />
+        <option value="$PROJECT_DIR$/src/test/testng-extent.xml" />
       </list>
     </option>
   </component>
@@ -354,6 +406,11 @@
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,26 +437,13 @@
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
-              <item name="Default Suite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-              <item name="junitreports" type="462c0819:PsiDirectoryNode" />
+              <item name="old" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -583,7 +627,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SeleniumLoginTest">
+  <component name="RunManager" selected="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -645,6 +689,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTestWithScreenshot" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reportingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="reportingTest" />
+      <option name="MAIN_CLASS_NAME" value="reportingTest.LoginTestWithScreenshot" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeleniumLoginTest" type="TestNG" factoryName="TestNG" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
       <output_file path="$PROJECT_DIR$/logs" is_save="true" />
       <module name="seleniumcode-master" />
@@ -675,23 +745,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_ListenersTest2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumcode-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNgTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNgTutorial" />
-      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_ListenersTest2" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestNG_ReportsAndLogs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
@@ -714,6 +767,24 @@
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-logs.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="seleniumcode-master" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng-extent.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -760,18 +831,19 @@
       <item itemvalue="TestNG.LoginPresentTestNG" />
       <item itemvalue="TestNG.SeleniumLoginTest" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" />
-      <item itemvalue="TestNG.TestNG_ListenersTest2" />
       <item itemvalue="TestNG.TestNG_ReportsAndLogs" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-logs.xml" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/resources/testng-logs.xml" />
+      <item itemvalue="TestNG.LoginTestWithScreenshot" />
+      <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTestWithScreenshot" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/resources/testng-logs.xml" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-logs.xml" />
         <item itemvalue="TestNG.TestNG_ReportsAndLogs" />
         <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-listeners.xml" />
-        <item itemvalue="TestNG.TestNG_ListenersTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -860,7 +932,7 @@
       <workItem from="1537231630395" duration="1469000" />
       <workItem from="1537242540258" duration="1721000" />
       <workItem from="1537275176524" duration="596000" />
-      <workItem from="1537521821062" duration="2518000" />
+      <workItem from="1537521821062" duration="7360000" />
     </task>
     <task id="LOCAL-00021" summary="added new codes">
       <created>1526100388103</created>
@@ -1209,39 +1281,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNG_ReportsAndLogs - 2018.09.13 at 11h 53m 29s.xml">
-      <configuration name="TestNG_ReportsAndLogs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-logs_xml - 2018.09.13 at 11h 56m 01s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-logs.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-logs_xml - 2018.09.13 at 11h 57m 02s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-logs.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-logs_xml - 2018.09.13 at 11h 58m 23s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-logs.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_resources_testng-logs_xml - 2018.09.13 at 11h 58m 53s.xml">
-      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/resources/testng-logs.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SeleniumLoginTest - 2018.09.18 at 08h 59m 14s.xml">
+    <history-entry file="SeleniumLoginTest - 2018.09.21 at 22h 20m 32s.xml">
       <configuration name="SeleniumLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumLoginTest - 2018.09.18 at 09h 02m 35s.xml">
+    <history-entry file="SeleniumLoginTest - 2018.09.21 at 22h 24m 01s.xml">
       <configuration name="SeleniumLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumLoginTest - 2018.09.21 at 16h 29m 00s.xml">
+    <history-entry file="SeleniumLoginTest - 2018.09.21 at 22h 34m 25s.xml">
       <configuration name="SeleniumLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumLoginTest - 2018.09.21 at 16h 35m 42s.xml">
-      <configuration name="SeleniumLoginTest" configurationId="TestNG" />
+    <history-entry file="LoginTestWithScreenshot - 2018.09.21 at 22h 39m 19s.xml">
+      <configuration name="LoginTestWithScreenshot" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumLoginTest - 2018.09.21 at 16h 43m 38s.xml">
-      <configuration name="SeleniumLoginTest" configurationId="TestNG" />
+    <history-entry file="LoginTestWithScreenshot - 2018.09.21 at 22h 42m 06s.xml">
+      <configuration name="LoginTestWithScreenshot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestWithScreenshot - 2018.09.21 at 22h 43m 33s.xml">
+      <configuration name="LoginTestWithScreenshot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestWithScreenshot - 2018.09.21 at 22h 45m 03s.xml">
+      <configuration name="LoginTestWithScreenshot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestWithScreenshot - 2018.09.21 at 22h 45m 57s.xml">
+      <configuration name="LoginTestWithScreenshot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-extent_xml - 2018.09.22 at 00h 22m 51s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-extent_xml - 2018.09.22 at 00h 24m 34s.xml">
+      <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280040000" />
+    <option name="totallyTimeSpent" value="284882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1256,7 +1328,7 @@
     <frame x="33" y="23" width="1245" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22776392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22776392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1265,16 +1337,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.50124687" weight="0.3262295" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49127182" side_tool="true" weight="0.27540985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49210307" side_tool="true" visible="true" weight="0.36557376" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.40731505" weight="0.44918033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5087282" weight="0.25409836" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5078969" weight="0.25409836" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6135182" side_tool="true" weight="0.3262295" />
       <window_info anchor="bottom" auto_hide="true" id="Messages" internal_type="SLIDING" order="9" sideWeight="0.30898404" type="SLIDING" weight="0.63442624" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49750414" weight="0.39836067" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4970906" weight="0.39836067" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="13" weight="0.3163752" />
       <window_info anchor="bottom" id="Spring" order="14" />
@@ -1458,44 +1530,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_DependentTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testng-groups.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="true" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Preserve2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1768,11 +1802,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/SeleniumLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+        <state relative-caret-position="-330">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/Screenshots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/LoginTestWithScreenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testng-extent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reportingTest/ExtentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
