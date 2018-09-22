@@ -43,9 +43,9 @@ public class HomePage {
   }
 
   public void clickGoLink() {
-    WebElement goButton = driver.findElement(By.id("memberLoginDialogsubmitButton"));
-    goButton.click();
-    test.log(LogStatus.INFO, "Clicked Go button");
+    WebElement goButton = driver.findElement ( By.id ( "memberLoginDialogsubmitButton" ) );
+    goButton.click ( );
+    test.log ( LogStatus.INFO, "Clicked Go button" );
   }
 
   public boolean isWelcomeTextPresent() {
