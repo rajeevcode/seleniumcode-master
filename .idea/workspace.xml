@@ -46,36 +46,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="ignore type Parallel TestSuite">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataFile/ExcelRead.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jars/poi-4.0.0/poi-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelRead.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ExcelRead.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataFile/UserLogin.xls" beforeDir="false" afterPath="$PROJECT_DIR$/dataFile/UserLogin.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/poi-3.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Log4jTutuorial/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Log4jTutuorial/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-logs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng-logs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Log4jTutuorial/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Log4jTutuorial/Bar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng-logs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumcode-master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="ignore type Parallel TestSuite" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -216,8 +187,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="385" column="17" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="385" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -226,7 +197,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="26" column="88" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+              <caret line="26" column="101" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -311,8 +282,8 @@
         <option value="$PROJECT_DIR$/src/test/java/extentReports/Screenshots.java" />
         <option value="$PROJECT_DIR$/src/test/java/Log4jTutuorial/Bar.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" />
       </list>
     </option>
   </component>
@@ -356,10 +327,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
+    <option name="x" value="23" />
     <option name="y" value="23" />
-    <option name="width" value="1230" />
-    <option name="height" value="703" />
+    <option name="width" value="1249" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -457,14 +428,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
@@ -932,7 +895,7 @@
       <workItem from="1537521821062" duration="13802000" />
       <workItem from="1537624357485" duration="2722000" />
       <workItem from="1537627364366" duration="3136000" />
-      <workItem from="1537631206006" duration="1158000" />
+      <workItem from="1537631206006" duration="1780000" />
     </task>
     <task id="LOCAL-00021" summary="added new codes">
       <created>1526100388103</created>
@@ -1313,7 +1276,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298340000" />
+    <option name="totallyTimeSpent" value="298962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1328,7 +1291,7 @@
     <frame x="42" y="23" width="1230" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23063973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23063973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1342,7 +1305,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5062344" weight="0.25409836" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.5062344" visible="true" weight="0.25340137" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6135182" side_tool="true" weight="0.3262295" />
       <window_info anchor="bottom" auto_hide="true" id="Messages" internal_type="SLIDING" order="9" sideWeight="0.30898404" type="SLIDING" weight="0.63442624" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -1620,6 +1583,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1641,6 +1607,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,6 +1617,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1655,6 +1627,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1697,6 +1672,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1704,6 +1682,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1788,6 +1769,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1847,14 +1831,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="26" column="88" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+          <caret line="26" column="101" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="385" column="17" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="385" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>

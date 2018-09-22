@@ -13,25 +13,37 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>6.14.3</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.gitlab</groupId>
-      <artifactId>java-gitlab-api</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>3.13.0</version>
+      <version>3.14.0</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-api</artifactId>
+      <version>3.14.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.0.0-beta1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.3.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -39,12 +51,22 @@
       <scope>test</scope>
     </dependency>
 
+
+    <!-- https://mvnrepository.com/artifact/org.gitlab/java-gitlab-api -->
+    <dependency>
+      <groupId>org.gitlab</groupId>
+      <artifactId>java-gitlab-api</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+
     <dependency>
       <groupId>com.cibuddy</groupId>
       <artifactId>travis</artifactId>
       <version>1.0.0</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core -->
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
@@ -52,10 +74,19 @@
       <scope>provided</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-war -->
+    <dependency>
+      <groupId>org.jenkins-ci.main</groupId>
+      <artifactId>jenkins-war</artifactId>
+      <version>2.86</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
     <dependency>
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
-      <version>0.7.9</version>
+      <version>0.8.2</version>
     </dependency>
 
     <dependency>
@@ -130,66 +161,64 @@
       <version>5.0.0</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
-      <version>20080701</version>
-      <scope>test</scope>
+      <version>20180813</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/net.sourceforge.htmlunit/htmlunit -->
     <dependency>
       <groupId>net.sourceforge.htmlunit</groupId>
       <artifactId>htmlunit</artifactId>
-      <version>2.27</version>
-      <scope>test</scope>
+      <version>2.33</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-api</artifactId>
-      <version>3.12.0</version>
-      <scope>test</scope>
-    </dependency>
 
     <dependency>
       <groupId>io.appium</groupId>
       <artifactId>java-client</artifactId>
-      <version>5.0.4</version>
+      <version>6.1.0</version>
       <scope>test</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
-      <scope>provided</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
       <version>2.11.1</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
       <version>2.11.1</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
     <dependency>
-      <groupId>com.relevantcodes</groupId>
+      <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
-      <version>2.41.2</version>
+      <version>3.1.5</version>
+      <scope>provided</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
     <dependency>
       <groupId>org.freemarker</groupId>
       <artifactId>freemarker</artifactId>
       <version>2.3.28</version>
     </dependency>
-
 
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
     <dependency>
