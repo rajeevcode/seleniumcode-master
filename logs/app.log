@@ -63,3 +63,8 @@
 09:36:33.720 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 09:36:33.722 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
 09:36:33.722 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:36:13.680 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+13:36:13.684 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+13:36:13.685 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:36:13.686 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:36:13.686 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
