@@ -30,7 +30,7 @@ public class ImplicitWaitDemo {
   @Test()
   public void test() throws Exception {
     driver.get(baseUrl);
-    driver.findElement ( By.linkText ( "Login" ) ).click ();
+    driver.findElement ( By.linkText ( "LoginTest" ) ).click ();
     driver.findElement ( By.id ( "user_email" ) ).sendKeys ( "test@gmail.com" );
     driver.findElement ( By.id ( "user_password" ) ).sendKeys ( "test@123" );
     driver.findElement ( By.xpath ( "//input[@type='submit']" ) ).click ();

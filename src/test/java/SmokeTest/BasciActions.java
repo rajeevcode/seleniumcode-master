@@ -24,7 +24,7 @@ public class BasciActions {
     @Test
     public void test() throws InterruptedException {
         driver.get ( baseUrl );
-        driver.findElement ( By.linkText ( "Login") ).click ();
+        driver.findElement ( By.linkText ( "LoginTest") ).click ();
         driver.findElement ( By.id("user_email") ).sendKeys ( "test@email.com" );
         System.out.println ("Sending keys to username field" );
         driver.findElement ( By.id ( "user_password" ) ).sendKeys ( "test" );

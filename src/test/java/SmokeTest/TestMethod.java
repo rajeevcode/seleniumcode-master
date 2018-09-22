@@ -21,7 +21,7 @@ public class TestMethod {
 //        String password = "test@123";
 //        String clientID = "test1";
 
-        // Login
+        // LoginTest
         WebDriver driver = new ChromeDriver ( );
         driver.get ("https://rajeev.instafin.info/user/login" );
         driver.manage ( ).timeouts ( ).implicitlyWait ( 10, TimeUnit.SECONDS );

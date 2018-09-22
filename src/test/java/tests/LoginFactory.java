@@ -27,7 +27,7 @@ public class LoginFactory {
     @Test
     public void loginTestPageFactory() {
 
-        /* 2. Enter login information (Login Page) */
+        /* 2. Enter login information (LoginTest Page) */
         LoginPageFactory loginPage = new LoginPageFactory ( driver );
         loginPage.login (username, password);
 

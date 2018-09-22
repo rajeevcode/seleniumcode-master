@@ -2,8 +2,8 @@
 
   <test name="Firefox Test">
     <classes>
-      <class name = "reportingTest.Test1"></class>
-      <class name = "reportingTest.Test2"></class>
+      <class name = "extentReports.Test1"></class>
+      <class name = "extentReports.Test2"></class>
     </classes>
   </test>
 </suite>

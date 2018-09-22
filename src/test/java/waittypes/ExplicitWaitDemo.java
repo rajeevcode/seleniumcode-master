@@ -36,7 +36,7 @@ public class ExplicitWaitDemo {
   @Test()
   public void test() throws Exception {
     driver.get ( baseUrl );
-    WebElement loginLink = driver.findElement ( By.linkText ( "Login" ) );
+    WebElement loginLink = driver.findElement ( By.linkText ( "LoginTest" ) );
     loginLink.click ( );
     WebDriverWait wait1 = new WebDriverWait ( driver, 3 );
     WebElement emailField = wait1.until ( ExpectedConditions.visibilityOfElementLocated ( By.id ( "user_email" ) ) );

@@ -23,7 +23,7 @@ public class ClientPage {
     public void hotelReservation() throws IOException {
 
 
-        // Login
+        // LoginTest
         driver.findElement ( By.id ( "us1" ) ).sendKeys ( username );
         driver.findElement ( By.id ( "pw1" ) ).sendKeys ( password );
         driver.findElement ( By.xpath ( "//div[2]/form/fieldset/button" ) ).click ( );

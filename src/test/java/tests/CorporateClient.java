@@ -17,7 +17,7 @@ public class CorporateClient {
 
     public static void main(String[] args) {
 
-        // Login
+        // LoginTest
         WebDriver driver = new ChromeDriver ( );
         //WebDriver driver = new FirefoxDriver (  );
         driver.get ( "https://rajeev.instafin.info/user/login" );

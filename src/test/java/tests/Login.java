@@ -22,7 +22,7 @@ public class Login {
         driver.get ( "http://sdettraining.com/trguitransactions/AccountManagement.aspx" );
 
 
-        // 2. Enter login information (Login Page)
+        // 2. Enter login information (LoginTest Page)
         LoginPage loginPage = new LoginPage ( driver );
         loginPage.setUsername ( "test1@test.com" );
         loginPage.setPassword ( "test@123" );

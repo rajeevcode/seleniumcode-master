@@ -33,7 +33,7 @@ public class ExplicitWaitUtilityDemo {
   @Test()
   public void test() throws Exception {
     driver.get ( baseUrl );
-    WebElement loginLink1 = driver.findElement ( By.linkText ( "Login" ) );
+    WebElement loginLink1 = driver.findElement ( By.linkText ( "LoginTest" ) );
     loginLink1.click ( );
 
    // WebDriverWait wait = new WebDriverWait ( driver, 3 );

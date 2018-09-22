@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="seleniumcode-master(failed)">
     <classes>
-      <class name="reportingTest.LoginTestWithScreenshot">
+      <class name="extentReports.LoginTestWithScreenshot">
         <methods>
           <include name="tearDown"/>
           <include name="beforeClass"/>
           <include name="test1_validLoginTest"/>
         </methods>
-      </class> <!-- reportingTest.LoginTestWithScreenshot -->
+      </class> <!-- extentReports.LoginTestWithScreenshot -->
     </classes>
   </test> <!-- seleniumcode-master(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

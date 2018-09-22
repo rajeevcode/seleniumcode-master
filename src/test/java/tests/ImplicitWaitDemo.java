@@ -29,7 +29,7 @@ public class ImplicitWaitDemo {
     @Test()
     public void test() throws Exception {
         driver.get(baseUrl);
-        WebElement loginLink =driver.findElement (By.linkText ( "Login" ));
+        WebElement loginLink =driver.findElement (By.linkText ( "LoginTest" ));
         loginLink.click ();
 
         WebElement emailField = wt.waitForElement ( By.id ( "user_email" ),3 );

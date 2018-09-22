@@ -32,7 +32,7 @@ public class NavigateBetweenPages extends BasciActions {
 
     String urlToNavigate = "https://sso.teachable.com/secure/42299/users/sign_in?reset_purchase_session=1";
     driver.navigate ( ).to ( urlToNavigate );
-    System.out.println ( "Navigating To Login" );
+    System.out.println ( "Navigating To LoginTest" );
     currentURl = driver.getCurrentUrl ( );
     System.out.println ( "Current Url is: " + currentURl );
 

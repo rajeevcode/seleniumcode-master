@@ -1,4 +1,4 @@
-package reportingTest;
+package extentReports;
 
 import com.relevantcodes.extentreports.ExtentReports;
 
