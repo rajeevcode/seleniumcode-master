@@ -46,7 +46,20 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="ignore type Parallel TestSuite" />
+    <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="ignore type Parallel TestSuite">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility_SingleDataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelDataSingleDataSet.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Constant2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataDriven/ExcelRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataDriven/ExcelRead.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,24 +159,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="60" />
-          <entry key="java" value="20799" />
+          <entry key="dummy" value="63" />
+          <entry key="java" value="22654" />
           <entry key="txt" value="84" />
-          <entry key="xml" value="1321" />
+          <entry key="xml" value="1323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20799" />
-          <entry key="PLAIN_TEXT" value="144" />
-          <entry key="XML" value="1321" />
+          <entry key="JAVA" value="22654" />
+          <entry key="PLAIN_TEXT" value="147" />
+          <entry key="XML" value="1323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
           <entry key="html" value="2" />
-          <entry key="java" value="180" />
+          <entry key="java" value="194" />
           <entry key="log" value="5" />
           <entry key="png" value="6" />
           <entry key="vmoptions" value="1" />
@@ -175,7 +188,7 @@
           <entry key="CLASS" value="6" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="180" />
+          <entry key="JAVA" value="194" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="34" />
         </counts>
@@ -184,20 +197,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility_SingleDataSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="542">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constant2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="26" column="101" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -233,14 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/regressionsuite/TestNG_TestClass1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/BaseTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/regression-test.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Priority.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Grouping.java" />
-        <option value="$PROJECT_DIR$/src/test/testng-groups.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/appCode/SomeClassToTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_DependentTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Preserve2.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Preserve1.java" />
         <option value="$PROJECT_DIR$/src/testng-preserve-enable.xml" />
@@ -282,8 +302,16 @@
         <option value="$PROJECT_DIR$/src/test/java/extentReports/Screenshots.java" />
         <option value="$PROJECT_DIR$/src/test/java/Log4jTutuorial/Bar.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/DataDriven/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/ConstantWrite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Constant2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility_SingleDataSet.java" />
       </list>
     </option>
   </component>
@@ -403,11 +431,6 @@
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -450,12 +473,16 @@
               <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PracticeExercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -533,6 +560,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
+    <property name="ToolWindowUML design tool window.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535096800834" />
@@ -566,15 +594,16 @@
       <recent name="$PROJECT_DIR$/src/test/java/" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
       <recent name="extentReports" />
       <recent name="testNgTutorial" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/ExcelUtil" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/java/utilitiesDataRead" />
-      <recent name="$PROJECT_DIR$/dataFile" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dropBox.test" />
@@ -593,21 +622,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelRead">
-    <configuration name="CreateAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.CreateAccount" />
-      <module name="seleniumcode-master" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UsingExcel_SingleDataSet">
     <configuration name="DataReaders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demos.DataReaders" />
       <module name="seleniumcode-master" />
@@ -629,20 +644,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataDriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.Login" />
-      <module name="seleniumcode-master" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -755,6 +756,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsingExcel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataDriven" />
+      <option name="MAIN_CLASS_NAME" value="DataDriven.UsingExcel" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingExcel_SingleDataSet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataDriven" />
+      <option name="MAIN_CLASS_NAME" value="DataDriven.UsingExcel_SingleDataSet" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
       <module name="seleniumcode-master" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng-extent.xml" />
@@ -792,18 +827,18 @@
       <item itemvalue="TestNG.SeleniumLoginTest" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml" />
       <item itemvalue="Application.DataReaders" />
-      <item itemvalue="Application.CreateAccount" />
-      <item itemvalue="Application.Login" />
       <item itemvalue="Application.NewAccount" />
       <item itemvalue="Application.ExcelRead" />
+      <item itemvalue="TestNG.UsingExcel" />
+      <item itemvalue="TestNG.UsingExcel_SingleDataSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UsingExcel_SingleDataSet" />
+        <item itemvalue="TestNG.UsingExcel" />
         <item itemvalue="Application.ExcelRead" />
         <item itemvalue="Application.DataReaders" />
         <item itemvalue="Application.NewAccount" />
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.CreateAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +930,7 @@
       <workItem from="1537521821062" duration="13802000" />
       <workItem from="1537624357485" duration="2722000" />
       <workItem from="1537627364366" duration="3136000" />
-      <workItem from="1537631206006" duration="1780000" />
+      <workItem from="1537631206006" duration="9908000" />
     </task>
     <task id="LOCAL-00021" summary="added new codes">
       <created>1526100388103</created>
@@ -1244,39 +1279,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2018.09.22 at 09h 28m 06s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 06m 00s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 09h 30m 30s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 06m 53s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 09h 31m 39s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 09m 16s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 09h 34m 15s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 10m 35s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 09h 36m 15s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 11m 51s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 09h 36m 34s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 13m 01s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 13h 36m 14s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 15m 38s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 22h 22m 40s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 16m 27s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumLoginTest - 2018.09.22 at 22h 24m 18s.xml">
-      <configuration name="SeleniumLoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 18m 17s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.09.22 at 22h 25m 10s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 20m 05s.xml">
+      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298962000" />
+    <option name="totallyTimeSpent" value="307090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1288,10 +1323,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1230" height="703" extended-state="0" />
+    <frame x="23" y="23" width="1249" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23063973" />
+      <window_info anchor="top" id="UML design tool window" order="0" type="SLIDING" weight="0.32917705" />
+      <window_info anchor="top" id="PlantUML" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22700912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1299,13 +1336,13 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49958438" weight="0.3262295" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55387205" side_tool="true" weight="0.4489796" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49792874" weight="0.32423207" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50207126" side_tool="true" weight="0.3771331" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44612795" weight="0.4489796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.5062344" visible="true" weight="0.25340137" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5053853" weight="0.4398682" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6135182" side_tool="true" weight="0.3262295" />
       <window_info anchor="bottom" auto_hide="true" id="Messages" internal_type="SLIDING" order="9" sideWeight="0.30898404" type="SLIDING" weight="0.63442624" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -1316,18 +1353,16 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24937657" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="PlantUML" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Nativer Admin" order="7" weight="0.3283582" />
-      <window_info anchor="right" id="UML design tool window" order="8" weight="0.32917705" />
-      <window_info anchor="right" id="Code Iris" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.3358271" />
-      <window_info anchor="right" id="Database" order="11" weight="0.32895815" />
-      <window_info anchor="right" id="Palette&#9;" order="12" />
-      <window_info anchor="right" id="Jenkins" order="13" weight="0.32999164" />
-      <window_info anchor="right" id="Coverage" order="14" side_tool="true" weight="0.32913518" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Nativer Admin" order="6" weight="0.3283582" />
+      <window_info anchor="right" id="Code Iris" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.33554268" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32895815" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Jenkins" order="11" weight="0.32999164" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32913518" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22776392" />
@@ -1493,65 +1528,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/listernerPackage/CustomListener3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.2/temp-testng-customsuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/listernerPackage/CustomListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" selection-start-line="10" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testng-listeners.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test Results - _Users_rajeev_kumar_git_seleniumTraining_testng_xml.xml" />
-    <entry file="file://$PROJECT_DIR$/Test Results - _Users_rajeev_kumar_git_seleniumcode-master_src_test_testng-logs_xml.html" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ListenersTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-logs.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_ReportsAndLogs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNg_Asserts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-105">
@@ -1789,13 +1765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demos/CreateAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Log4jTutuorial/Bar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1828,17 +1797,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="26" column="101" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
+        <state relative-caret-position="94">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/classes/searchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/letskoeditLogs/LoggingFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PracticeExercise/TestNG_SeleniumParametersParallelExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="50" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/demos/CreateAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="58" selection-start-line="15" selection-start-column="2" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constant2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility_SingleDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

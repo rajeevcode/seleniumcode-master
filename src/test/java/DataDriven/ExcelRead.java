@@ -33,7 +33,7 @@ public class ExcelRead {
       ExcelWBook = new XSSFWorkbook(ExcelFile);
       ExcelWSheet = ExcelWBook.getSheet(sheetName);
 
-      Cell = ExcelWSheet.getRow(1).getCell(2);
+      Cell = ExcelWSheet.getRow(0).getCell(0);
       String cellData = Cell.getStringCellValue();
       System.out.println("Cell Data: " + cellData);
 
