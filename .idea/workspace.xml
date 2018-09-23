@@ -47,18 +47,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb6ed56-e117-4411-864f-473d481717eb" name="Default" comment="ignore type Parallel TestSuite">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility_SingleDataSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelDataSingleDataSet.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Constant2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserProfiles/ChromeOptionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserProfiles/ProfilesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/usefulMethods/ProfilesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DataDriven/ExcelRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataDriven/ExcelRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Constant2.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -136,8 +130,9 @@
     <session id="-1785608632">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="41" />
           <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="3" />
@@ -154,33 +149,34 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="63" />
-          <entry key="java" value="22654" />
+          <entry key="java" value="23096" />
           <entry key="txt" value="84" />
-          <entry key="xml" value="1323" />
+          <entry key="xml" value="1336" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22654" />
+          <entry key="JAVA" value="23096" />
           <entry key="PLAIN_TEXT" value="147" />
-          <entry key="XML" value="1323" />
+          <entry key="XML" value="1336" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
           <entry key="html" value="2" />
-          <entry key="java" value="194" />
+          <entry key="java" value="202" />
           <entry key="log" value="5" />
           <entry key="png" value="6" />
           <entry key="vmoptions" value="1" />
-          <entry key="xml" value="34" />
+          <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -188,9 +184,9 @@
           <entry key="CLASS" value="6" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="194" />
+          <entry key="JAVA" value="202" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="34" />
+          <entry key="XML" value="35" />
         </counts>
       </usages-collector>
     </session>
@@ -198,22 +194,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility_SingleDataSet.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="3930">
+              <caret line="262" column="2" selection-start-line="262" selection-start-column="2" selection-end-line="267" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/browserProfiles/ProfilesDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,10 +215,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constant2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/browserProfiles/ChromeOptionsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/usefulMethods/GetTextDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -261,10 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Preserve2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Preserve1.java" />
-        <option value="$PROJECT_DIR$/src/testng-preserve-enable.xml" />
-        <option value="$PROJECT_DIR$/src/test/testng-preserve-enable.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_EnableTimeout.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Parameters.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_TestParrallel1.java" />
@@ -303,21 +307,26 @@
         <option value="$PROJECT_DIR$/src/test/java/Log4jTutuorial/Bar.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelRead.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DataDriven/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/ConstantWrite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/Constant2.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataDriven/ExcelUtility_SingleDataSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/browserProfiles/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/usefulMethods/ProfilesDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/browserProfiles/ProfilesDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/browserProfiles/ChromeOptionsDemo.java" />
       </list>
     </option>
   </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
       <run-configuration type="TestNG" name="LoginPresentTestNG" />
+      <run-configuration type="TestNG" name="UsingExcel_SingleDataSet" />
     </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -458,7 +467,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataDriven" type="462c0819:PsiDirectoryNode" />
+              <item name="browserProfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
@@ -466,23 +475,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ExcelUtil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PracticeExercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumcode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="usefulMethods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -594,6 +587,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="usefulMethods" />
       <recent name="utilities" />
       <recent name="extentReports" />
       <recent name="testNgTutorial" />
@@ -622,14 +616,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UsingExcel_SingleDataSet">
-    <configuration name="DataReaders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.DataReaders" />
+  <component name="RunManager" selected="Application.ProfilesDemo">
+    <configuration name="ChromeOptionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browserProfiles.ChromeOptionsDemo" />
       <module name="seleniumcode-master" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demos.*" />
+          <option name="PATTERN" value="browserProfiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -637,27 +631,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataDriven.ExcelRead" />
+    <configuration name="ProfilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browserProfiles.ProfilesDemo" />
       <module name="seleniumcode-master" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataDriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.NewAccount" />
-      <module name="seleniumcode-master" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demos.*" />
+          <option name="PATTERN" value="browserProfiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -756,16 +736,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingExcel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAnnotation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataDriven.*" />
+          <option name="PATTERN" value="testNgTutorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataDriven" />
-      <option name="MAIN_CLASS_NAME" value="DataDriven.UsingExcel" />
+      <option name="PACKAGE_NAME" value="testNgTutorial" />
+      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestAnnotation" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -773,16 +753,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingExcel_SingleDataSet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAnnotation.btestMethod2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumcode-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataDriven.*" />
+          <option name="PATTERN" value="testNgTutorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataDriven" />
-      <option name="MAIN_CLASS_NAME" value="DataDriven.UsingExcel_SingleDataSet" />
+      <option name="PACKAGE_NAME" value="testNgTutorial" />
+      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestAnnotation" />
+      <option name="METHOD_NAME" value="btestMethod2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG_Class2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumcode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgTutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgTutorial" />
+      <option name="MAIN_CLASS_NAME" value="testNgTutorial.TestNG_Class2" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -826,19 +825,19 @@
       <item itemvalue="TestNG.LoginPresentTestNG" />
       <item itemvalue="TestNG.SeleniumLoginTest" />
       <item itemvalue="TestNG./Users/rajeev.kumar/git/seleniumcode-master/src/test/testng-extent.xml" />
-      <item itemvalue="Application.DataReaders" />
-      <item itemvalue="Application.NewAccount" />
-      <item itemvalue="Application.ExcelRead" />
-      <item itemvalue="TestNG.UsingExcel" />
-      <item itemvalue="TestNG.UsingExcel_SingleDataSet" />
+      <item itemvalue="TestNG.TestAnnotation.btestMethod2" />
+      <item itemvalue="TestNG.TestAnnotation" />
+      <item itemvalue="TestNG.TestNG_Class2" />
+      <item itemvalue="Application.ChromeOptionsDemo" />
+      <item itemvalue="Application.ProfilesDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UsingExcel_SingleDataSet" />
-        <item itemvalue="TestNG.UsingExcel" />
-        <item itemvalue="Application.ExcelRead" />
-        <item itemvalue="Application.DataReaders" />
-        <item itemvalue="Application.NewAccount" />
+        <item itemvalue="Application.ProfilesDemo" />
+        <item itemvalue="Application.ChromeOptionsDemo" />
+        <item itemvalue="TestNG.TestNG_Class2" />
+        <item itemvalue="TestNG.TestAnnotation" />
+        <item itemvalue="TestNG.TestAnnotation.btestMethod2" />
       </list>
     </recent_temporary>
   </component>
@@ -930,7 +929,9 @@
       <workItem from="1537521821062" duration="13802000" />
       <workItem from="1537624357485" duration="2722000" />
       <workItem from="1537627364366" duration="3136000" />
-      <workItem from="1537631206006" duration="9908000" />
+      <workItem from="1537631206006" duration="13682000" />
+      <workItem from="1537706803998" duration="870000" />
+      <workItem from="1537708685531" duration="226000" />
     </task>
     <task id="LOCAL-00021" summary="added new codes">
       <created>1526100388103</created>
@@ -1279,39 +1280,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 06m 00s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="Test - 2018.09.23 at 19h 36m 18s.xml">
+      <configuration name="Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 06m 53s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="Test - 2018.09.23 at 19h 37m 17s.xml">
+      <configuration name="Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 09m 16s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="Test - 2018.09.23 at 19h 37m 57s.xml">
+      <configuration name="Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 10m 35s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="Test - 2018.09.23 at 19h 38m 33s.xml">
+      <configuration name="Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 11m 51s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="Test - 2018.09.23 at 19h 39m 21s.xml">
+      <configuration name="Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 13m 01s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="Test - 2018.09.23 at 19h 39m 43s.xml">
+      <configuration name="Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 15m 38s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="GetTextDemo - 2018.09.23 at 19h 40m 22s.xml">
+      <configuration name="GetTextDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 16m 27s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="TestAnnotation_btestMethod2 - 2018.09.23 at 19h 40m 31s.xml">
+      <configuration name="TestAnnotation.btestMethod2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 18m 17s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="TestAnnotation - 2018.09.23 at 19h 40m 34s.xml">
+      <configuration name="TestAnnotation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsingExcel_SingleDataSet - 2018.09.23 at 11h 20m 05s.xml">
-      <configuration name="UsingExcel_SingleDataSet" configurationId="TestNG" />
+    <history-entry file="TestNG_Class2 - 2018.09.23 at 19h 40m 41s.xml">
+      <configuration name="TestNG_Class2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307090000" />
+    <option name="totallyTimeSpent" value="311975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1326,7 +1327,7 @@
     <frame x="23" y="23" width="1249" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="top" id="UML design tool window" order="0" type="SLIDING" weight="0.32917705" />
+      <window_info anchor="top" id="UML design tool window" internal_type="SLIDING" order="0" type="SLIDING" weight="0.32917705" />
       <window_info anchor="top" id="PlantUML" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22700912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1336,13 +1337,13 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49792874" weight="0.32423207" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50207126" side_tool="true" weight="0.3771331" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49710023" weight="0.32423207" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50289977" side_tool="true" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44612795" weight="0.4489796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5053853" weight="0.4398682" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5045568" weight="0.43856657" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6135182" side_tool="true" weight="0.3262295" />
       <window_info anchor="bottom" auto_hide="true" id="Messages" internal_type="SLIDING" order="9" sideWeight="0.30898404" type="SLIDING" weight="0.63442624" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -1350,15 +1351,16 @@
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="13" weight="0.3163752" />
       <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" sideWeight="0.49958575" weight="0.32935154" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24937657" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Nativer Admin" order="6" weight="0.3283582" />
-      <window_info anchor="right" id="Code Iris" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.33554268" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.33554268" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24937657" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Nativer Admin" order="7" weight="0.3283582" />
+      <window_info anchor="right" id="Code Iris" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.32895815" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Jenkins" order="11" weight="0.32999164" />
@@ -1496,6 +1498,12 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/ClientPage.java</url>
           <line>22</line>
@@ -1528,50 +1536,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/Expedia/FindLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/old/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/bullet_point.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/extentReports/SeleniumLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/extentReports/ExtentFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1583,9 +1547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1593,9 +1554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1603,9 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,9 +1603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1658,9 +1610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1745,9 +1694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1779,38 +1725,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/Log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-            <element signature="e#2239#2240#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2347#2348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExcelUtil/ExcelUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/Constants.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/DashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1850,9 +1766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1860,16 +1773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="58" selection-start-line="15" selection-start-column="2" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="118" />
         </state>
       </provider>
     </entry>
@@ -1880,10 +1783,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constant2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constant2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1891,16 +1802,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/usefulMethods/ProfilesDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/browserProfiles/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestNG_Class2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgTutorial/TestAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3930">
+          <caret line="262" column="2" selection-start-line="262" selection-start-column="2" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/usefulMethods/GetTextDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataDriven/UsingExcel_SingleDataSet.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/browserProfiles/ChromeOptionsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/browserProfiles/ProfilesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
