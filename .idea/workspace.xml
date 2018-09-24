@@ -151,14 +151,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="72" />
-          <entry key="java" value="25507" />
+          <entry key="java" value="25572" />
           <entry key="txt" value="84" />
           <entry key="xml" value="1342" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25507" />
+          <entry key="JAVA" value="25572" />
           <entry key="PLAIN_TEXT" value="156" />
           <entry key="XML" value="1342" />
         </counts>
@@ -200,8 +200,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseTesting/DatabaseTestingMongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+            <state relative-caret-position="386">
+              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -925,7 +925,7 @@
       <workItem from="1537631206006" duration="13682000" />
       <workItem from="1537706803998" duration="870000" />
       <workItem from="1537708685531" duration="2765000" />
-      <workItem from="1537762370300" duration="8879000" />
+      <workItem from="1537762370300" duration="9349000" />
     </task>
     <task id="LOCAL-00021" summary="added new codes">
       <created>1526100388103</created>
@@ -1274,18 +1274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 05m 55s.xml">
-      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 06m 07s.xml">
-      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 06m 29s.xml">
-      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 23m 30s.xml">
-      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 26m 38s.xml">
       <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
     </history-entry>
@@ -1304,9 +1292,21 @@
     <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 30m 04s.xml">
       <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 39m 02s.xml">
+      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 39m 16s.xml">
+      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 39m 34s.xml">
+      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DatabaseTestingMongoDB - 2018.09.24 at 16h 39m 48s.xml">
+      <configuration name="DatabaseTestingMongoDB" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323378000" />
+    <option name="totallyTimeSpent" value="323848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1332,12 +1332,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49710023" weight="0.32423207" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49710023" side_tool="true" visible="true" weight="0.43856657" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49710023" side_tool="true" weight="0.721843" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44612795" weight="0.4489796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.50289977" visible="true" weight="0.43856657" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.50289977" weight="0.43856657" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6135182" side_tool="true" weight="0.3262295" />
       <window_info anchor="bottom" auto_hide="true" id="Messages" internal_type="SLIDING" order="9" sideWeight="0.30898404" type="SLIDING" weight="0.63442624" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -1862,8 +1862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DatabaseTesting/DatabaseTestingMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+        <state relative-caret-position="386">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

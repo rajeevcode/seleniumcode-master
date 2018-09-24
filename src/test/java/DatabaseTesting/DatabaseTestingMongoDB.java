@@ -1,6 +1,7 @@
 package DatabaseTesting;
 
 import com.mongodb.BasicDBObject;
+import com.mongodb.Cursor;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
@@ -12,6 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class DatabaseTestingMongoDB {
+  Cursor cursor;
 
   MongoClient mongoClient = null;
   MongoDatabase db = null;
@@ -64,7 +66,8 @@ public class DatabaseTestingMongoDB {
 
   @AfterClass
   public void afterClass(){
-
+    //Closing Mongo DB connection
+//    cursor.close();
   }
 }
 
