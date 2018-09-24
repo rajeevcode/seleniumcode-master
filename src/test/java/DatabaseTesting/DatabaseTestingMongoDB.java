@@ -53,6 +53,7 @@ public class DatabaseTestingMongoDB {
         System.out.println ("*************" );
         System.out.println (obj.toString () );
 
+        //Expected Result from UI, Actual Result from DataBase
         Assert.assertEquals ( "item","item" );
       }
     } catch (Exception e) {
