@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SDET University Test Suites" verbose="1">
+
+    <test name="Smoke Test1">
+        <packages>
+            <package name="SmokeTest"/>
+        </packages>
+    </test>
+
+    <test name="Smoke Test2">
+        <packages>
+            <package name="demos"/>
+        </packages>
+    </test>
+
+    <test name="Smoke Test3">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+</suite>

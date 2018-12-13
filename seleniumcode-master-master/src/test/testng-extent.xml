@@ -1,0 +1,9 @@
+<suite name="Extent TestSuite">
+
+  <test name="Firefox Test">
+    <classes>
+      <class name = "extentReports.Test1"></class>
+      <class name = "extentReports.Test2"></class>
+    </classes>
+  </test>
+</suite>

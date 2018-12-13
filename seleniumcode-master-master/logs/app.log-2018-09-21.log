@@ -1,0 +1,30 @@
+18:09:25.848 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+18:09:25.858 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+18:09:25.861 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+18:09:25.863 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+18:09:25.864 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+22:20:31.639 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+22:20:31.645 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+22:20:31.648 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+22:20:31.650 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+22:20:31.650 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+22:24:00.465 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+22:24:00.470 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+22:24:00.472 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+22:24:00.473 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+22:24:00.474 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+22:34:24.475 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+22:34:24.479 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+22:34:24.480 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+22:34:24.480 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+22:34:24.480 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+22:43:32.661 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+22:43:32.668 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+22:43:32.669 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+22:43:32.670 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+22:43:32.670 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+22:45:55.608 DEBUG freemarker.cache -Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+22:45:55.616 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+22:45:55.617 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+22:45:55.617 DEBUG freemarker.cache -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+22:45:55.617 DEBUG freemarker.cache -Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/rajeev.kumar/Desktop/Learning/selenium-webdriver-with-java-testng-and-log4j/36/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
