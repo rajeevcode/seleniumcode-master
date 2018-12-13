@@ -5,6 +5,7 @@
     <test name="Smoke Test1">
         <packages>
             <package name="SmokeTest"/>
+            <package name="SmokeTest1"/>
         </packages>
     </test>
 
