@@ -7,43 +7,40 @@
 <body>
   <h1>Course Sign Up Page</h1>
 
-  <p>Please Note:First Name, Last Name, Password and Email are required</p>
+  <p>Please Note: First Name, Last Name, Password and Email are required</p>
 
-  <label>
-    First Name:
-    <input type="text" name="" value="" placeholder="First Name">
-  </label>
-  <label>
-    Last Name:
-    <input type="text" name="" value="" placeholder="Last Name">
-  </label>
-  <p>
+  <form action="thankyou.html" method="get">
+    <label for="fn">First Name:</label>
+    <input id="fn" name="" placeholder="First Name" required>
 
-    <label>
-      Email:
-      <input type="text" name="" value="" placeholder="Email">
-    </label>
-    <label>
-      ff
-      Password:
-      <input type="text" name="" value="" placeholder="Password">
+    <label for="ln">Last Name:</label>
+    <input id="ln" type="text" name="" placeholder="Last Name" required>
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" name="" value="" placeholder="Email" required>
 
-    </label>
-  </p>
-  <p>Are you over the age of 18?</p>
-  <label for="Yes">Yes:</label>
-  <input id="Yes" type="radio" name="loc" value="Yes">
+      <label for="pass">Password:</label>
+      <input type="password" name="" value="" required>
+    </p>
 
-  <label for="No">No:</label>
-  <input id="No" type="radio" name="loc" value="No">
+    <p>Are you over the age of 18?</p>
 
-  <p>Do you have a Credit Card or PayPal?</p>
-  <select name="Payment">
-    <option value="cc">Credit Card</option>
-    <option value="pp">PayPal</option>
-  </select>
-  <p>
-    <input type="submit" name="" value="Sign Up"></p>
+    <label for="y">Yes:</label>
+    <input id="y" type="radio" name="over" value="Yes">
+
+    <label for="n">No:</label>
+    <input id="n" type="radio" name="over" value="No">
+
+    <p>Do you have a Credit Card or PayPal?</p>
+
+    <select name="payment">
+      <option value="cc">Credit Card</option>
+      <option value="pp">PayPal</option>
+    </select>
+
+    <p></p>
+
+    <input type="submit" name="" value="Sign Up">
 
   </body>
   </html>
