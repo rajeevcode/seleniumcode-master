@@ -1,0 +1,26 @@
+/* selected tag{
+property: value;
+}*/
+
+body{
+  /* background-color: gray; */
+  background: url(http://static.asiawebdirect.com/m/phuket/portals/www-singapore-com/homepage/pagePropertiesImage/singapore.jpg.jpg);
+  background-repeat: repeat;
+}
+
+div{
+  background: yellow;
+  border-color: orange;
+  /* border-width: thick; */
+  border-width: 4px;
+  border-style: double;
+}
+
+p{
+  color: green;
+}
+
+span{
+  background: red;
+  color: black;
+}
