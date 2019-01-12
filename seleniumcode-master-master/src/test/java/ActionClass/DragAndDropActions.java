@@ -12,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.concurrent.TimeUnit;
 
 public class DragAndDropActions {
-  //JavascriptExecutor jse;
+  //JavascriptExecutor jse test;
   private String baseUrl = "https://jqueryui.com/droppable/";
   private WebDriver driver;
 
